@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'retobb',
+    name: 'sts',
 
     requires: [
         'Ext.MessageBox',
@@ -31,6 +31,6 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('retobb.view.Main'));
+        Ext.Viewport.add(Ext.create('sts.view.Main'));
     },
 });

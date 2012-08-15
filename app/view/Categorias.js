@@ -37,7 +37,7 @@ var datos = Ext.create('Ext.data.Store', {
 	]
 });
 
-Ext.define("retobb.view.Categorias", {
+Ext.define("sts.view.Categorias", {
     extend: 'Ext.Panel',
     xtype: 'tipoCategorias',
     config: {

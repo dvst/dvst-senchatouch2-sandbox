@@ -1,4 +1,4 @@
-Ext.define("retobb.view.Main", {
+Ext.define("sts.view.Main", {
     extend: 'Ext.tab.Panel',
     requires: [
         'Ext.TitleBar',
