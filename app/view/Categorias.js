@@ -54,7 +54,9 @@ Ext.define("sts.view.Categorias", {
 		width:'100',
 		height:650,
 		itemTpl: '<div class="contact">{valor}</div>',
-		store: 'ListStore'
+		store: 'ListStore',
+          grouped: true,
+          indexBar: true
 		}
 	]
     }
