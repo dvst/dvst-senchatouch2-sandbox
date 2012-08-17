@@ -1,0 +1,16 @@
+- Obtener listado completo de categorias de mercado libre, todos los hijos.
+- Dar funcionalidad a barra de busqueda en pantalla de categorias.
++ Buscar anidadamente, mostrara resultados internos en otro estilo.
+- Crear estilo de conversación (BBM,iOS) para pantalla de recomendaciones de amigos pros/cons.
+- En barra de herramientas inferior, mostrar foto de facebook en item CUENTA una vez logueado.
+- Crear vista para pestaña de BUSCAR, mostrando INPUT SEARCH e historial de busquedas.
++ Segunda vista de resultado de busquedas, para finalizar con detalle de item.
++ mejorar pantalla de detalle de producto, agregar acceso a youtube y mercadolibre.
+- Definir acciones agregar a pestaña de PREFERENCIAS, de lo contrario, eliminar boton.
++ En caso de desechar PREFERENCIAS, optar por FAVORITOS.
+- Dar apariencia de playbook (imitar BBUI.js)
+- Integrar conexión facebook, BBM, twitter.
+- Usar menú con overlay flotante? --PROBAR
+- Usar listado anidado para categotias tipo mercadolibre, en disco, no consultas a servidor (TIPO MERCADOLIBRE)
+
+     * Dar vuelta a ALTO/ANCHO de listas (categorias), trabajar con porcentajes para adaptarse a diferentes dispositivos.

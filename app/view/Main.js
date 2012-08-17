@@ -22,11 +22,12 @@ Ext.define("sts.view.Main", {
             {
 		xtype: 'tipoCategorias',
                 title: 'Categorias',
-                iconCls: 'more',
+                iconCls: 'bookmarks',
             },
             {
 		xtype: 'nestedlist',
                 title: 'Actividades',
+                badgeText: '4',
                 iconCls: 'time'
             },
 	    {
@@ -35,7 +36,11 @@ Ext.define("sts.view.Main", {
 		iconCls: 'search',
 		layout: 'vbox',
 	    	items: [
-			{title: 'detalle', html: 'detalle de producto', style: 'color:white; background-color: black', height: 100},
+			{
+                   xtype: 'toolbar',
+                   title: 'detalle de producto ....'
+               },
+			{title: 'detalle', html: 'Convertido de video 3D', style: 'color:white; background-color: black', height: 100},
 			{
 				xtype: 'toolbar',
 				items: [
@@ -67,8 +72,8 @@ Ext.define("sts.view.Main", {
 		]
 	    },
 	    {
-	    	title: 'Preferencias',
-		iconCls: 'settings'
+	    	title: 'Favoritos',
+		iconCls: 'favorites'
 	    },
 	    {
 		xtype: 'formpanel',

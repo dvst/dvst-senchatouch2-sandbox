@@ -41,6 +41,7 @@ Ext.define("sts.view.Categorias", {
     extend: 'Ext.Panel',
     xtype: 'tipoCategorias',
     config: {
+     layout: 'fit',
     	items: [
 		{
 		xtype: 'toolbar',
@@ -51,8 +52,6 @@ Ext.define("sts.view.Categorias", {
 		},
 		{
 		xtype: 'list',
-		width:'100',
-		height:650,
 		itemTpl: '<div class="contact">{valor}</div>',
 		store: 'ListStore',
           grouped: true,
