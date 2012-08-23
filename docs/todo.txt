@@ -12,5 +12,3 @@
 - Integrar conexión facebook, BBM, twitter.
 - Usar menú con overlay flotante? --PROBAR
 - Usar listado anidado para categotias tipo mercadolibre, en disco, no consultas a servidor (TIPO MERCADOLIBRE)
-
-     * Dar vuelta a ALTO/ANCHO de listas (categorias), trabajar con porcentajes para adaptarse a diferentes dispositivos.
